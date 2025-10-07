@@ -2,7 +2,7 @@
 
 
 import React from "react";
-import "./VisionAndMission.css";
+import "./vis.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "bootstrap/dist/css/bootstrap.css";
