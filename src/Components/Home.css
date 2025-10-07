@@ -7,8 +7,9 @@
   background-size: cover;
   background-position: center;
   padding: 20px;
-   background-image: url("/public/Images/gradient-dark-blue-futuristic-digital-grid-background.jpg");
+  background-image: url("/Images/gradient-dark-blue-futuristic-digital-grid-background.jpg"); /* ✅ Remove /public */
 }
+
 
 .heading {
   color: white;
@@ -151,6 +152,23 @@ img {
     height: 80px;
   }
 }
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Some Swiper and Bootstrap containers can cause tiny overflow */
+.container-fluid, .mySwiper {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* If any element still causes overflow on small screens */
+* {
+  box-sizing: border-box;
+}
+
 
 
 
