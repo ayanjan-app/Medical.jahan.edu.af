@@ -159,15 +159,9 @@ html, body {
 }
 
 /* Some Swiper and Bootstrap containers can cause tiny overflow */
-.container-fluid, .mySwiper {
-  overflow-x: hidden;
-  max-width: 100%;
-}
+
 
 /* If any element still causes overflow on small screens */
-* {
-  box-sizing: border-box;
-}
 
 
 
