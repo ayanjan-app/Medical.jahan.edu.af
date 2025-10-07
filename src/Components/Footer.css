@@ -1,0 +1,21 @@
+.footer{
+  padding: 0% 0% 0% 0% ;
+  margin: 0% 0% 0% 0% ;
+}
+.footer {
+color: rgb(255, 255, 255);
+  margin-left: auto;
+    margin-right: auto;
+
+}
+.footer-col {
+ margin-left: auto;
+    margin-right: auto;
+
+}
+.footericon{
+  margin-top: 10px;
+}
+.footerbackground{
+background-color: rgb(171, 171, 171);
+}

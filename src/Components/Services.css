@@ -1,0 +1,54 @@
+.servicecardimg {
+  margin-left: -50px;
+  margin-right: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 75px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: rgba(133, 157, 255, 0.275);
+}
+
+.servicecard2 {
+  padding: 25px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.servicecardtxt {
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 5px;
+  background-color: rgb(168, 222, 239);
+}
+.cards {
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #cecece;
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.serviceheading {
+  text-align: center;
+}
+.services2 {
+  margin-top: 20px;
+  background-color: #ebfbff;
+}
+.card-text {
+  margin-top: 10px;
+}
+.servicecardtxt:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px rgb(65, 128, 80);
+  border-right: solid 3px rgb(255, 144, 144);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.servicecardtxt:hover:after {
+  transform: scaleX(1);
+  transform: scaleY(1);
+}

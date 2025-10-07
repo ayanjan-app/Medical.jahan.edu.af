@@ -1,0 +1,162 @@
+/* Responsive adjustments */
+.backgroundHome {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+   background-image: url("/public/Images/gradient-dark-blue-futuristic-digital-grid-background.jpg");
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.swiper-image-container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.servicecard {
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+    background-image: url("/Images/blurred-abstract-background-interior-view-looking-out-toward-empty-office-lobby-entrance-doors-glass-curtain-wall-with-frame.jpg");
+}
+
+.servicecard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+/* Prevent Bootstrap row overflow */
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Ensure no horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Fix Swiper width overflow */
+.mySwiper {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Make sure images never exceed parent width */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.doctorcard {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.whychoice{
+  
+
+ 
+     background-image: url("/Images/blurred-abstract-background-interior-view-looking-out-toward-empty-office-lobby-entrance-doors-glass-curtain-wall-with-frame.jpg");
+}
+
+.doctorimg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.whyuslogo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.whyusimg {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.Hospitalfeatureimg {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.testtimonialtext {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  height: 100%;
+}
+
+/* Responsive text sizes */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+  }
+  
+  .service-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading {
+    font-size: 1.2rem;
+  }
+  
+  .doctorimg {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
+
+
+
+
+
+
+

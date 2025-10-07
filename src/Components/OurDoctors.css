@@ -1,0 +1,27 @@
+.btncollapse {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 0px;
+  border: 1px solid;
+  border-color: rgb(112, 112, 112);
+  background-color: aliceblue;
+}
+.btncollapse:hover {
+  /* border-bottom: 1px solid rgb(164, 164, 164); */
+  border: 0cap;
+}
+.ourdoctorbanner {
+  height: 500px;
+  background-image: url("/Images/young-handsome-physician-medical-robe-with-stethoscope.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#Readmore1::before {
+  content: "";
+}
+#Readmore1::after {
+  content: "show less";
+}
+.textdoc {
+  padding-top: 220px;
+}
