@@ -5,6 +5,7 @@ import VisionAndMission from "./VisionAndMission";
 import Ourdoctors from "./OurDoctors";
 import Contact from "./Contact";
 import Services1 from "./Services1";
+import LatestNews from "./News";
 
 function RouteHeader() {
   return (
@@ -15,6 +16,7 @@ function RouteHeader() {
         <Route path="/Services" element={<Services1 />} />
         <Route path="/DoctorProfile" element={<Ourdoctors />} />
         <Route path="/Contact" element={<Contact />} />
+                <Route path="/news" element={<LatestNews />} />
       </Routes>
     </>
   );

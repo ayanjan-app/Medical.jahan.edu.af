@@ -13,7 +13,8 @@ function Header() {
     { path: "/services", label: "Services", ref: useRef() },
     { path: "/visionandmission", label: "Vision & Mission", ref: useRef() },
     { path: "/doctorprofile", label: "Doctors", ref: useRef() },
-    { path: "/contact", label: "Contact Us", ref: useRef() }
+    { path: "/contact", label: "Contact Us", ref: useRef() },
+        { path: "/news", label: "News", ref: useRef() }
   ];
 
   // Handle scroll effect
